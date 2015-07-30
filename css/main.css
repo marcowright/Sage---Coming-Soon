@@ -1,0 +1,188 @@
+* {
+
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 20px;
+	color: #c1bfc0;
+	background: #7c787b url(../img/backgroud.jpg) center center no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1, h2, button {
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 120px;
+	line-height: 1em;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 12px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 400;
+	letter-spacing: 4px;
+	margin-bottom: 30px;
+}
+
+.container {
+	max-width: 1170px;
+	width: 70%;	
+	margin: 0 auto;
+
+}
+
+.top_bar {
+	margin-bottom: 100px;
+}
+
+.logo {
+	float: left;
+	background: #352d2f url(../img/logo.gif);
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	display: none;
+}
+
+.menu {
+	
+	width: 70px;
+	height: 70px;
+	background-color: #352d2f;
+	padding: 27px 22px;
+
+}
+
+.icon_bar{
+	display: block;
+	height: 3px;
+	margin-bottom: 3px;
+	background-color: #fff;
+	width: 24px;
+}
+
+main {
+	width: 80%;
+	margin-bottom: 60px;
+}
+
+.lead {
+	font-size: 26px;
+	font-weight: 300;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	color: d8d4d5;
+	line-height: 32px;
+	margin-bottom: 30px;
+}
+
+aside {
+	width: 48%;
+}
+
+aside p {
+	font-size: 18px;
+	margin-bottom: 32px;
+
+}
+
+input {
+	width: 350px;
+	padding: 16px;
+	font-size: 16px;
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+}
+
+button {
+	color: #fff;
+	background-color: #f63c3c;
+	border: 0;
+	font-size: 20px;
+	letter-spacing: 4px;
+	padding: 20px 29px;
+}
+
+.group {
+	margin-bottom: 36px;
+}
+
+li article {
+	font-size: 14px;
+}
+
+ul li {
+	text-decoration: none;
+}
+
+	
+h3 {
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom: 16px;
+	
+}
+
+h3, a {
+	text-decoration: none;
+	color: #fff;
+
+}
+
+.social_media a {
+	margin-left: 22px;
+
+}
+
+article a {
+	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 300;
+	display: block;
+	width: 70%;
+	padding-left: 20px;
+
+}
+
+.social_media article {
+	width: 80%;
+	margin-bottom: 16px;
+
+
+}
+
+time {
+	color: #919091;
+	padding-left: 41px;
+}
+
+footer {
+	margin-top: 145px;
+}
+
+
+
+
+
+
+
