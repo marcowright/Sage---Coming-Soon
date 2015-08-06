@@ -34,7 +34,6 @@ h1, h2, button {
 
 h2 {
 	font-size: 30px;
-	font-weight: 400;
 	letter-spacing: 4px;
 	margin-bottom: 30px;
 }
@@ -68,7 +67,8 @@ nav ul {
 	width: 70px;
 	height: 70px;
 	background-color: #352d2f;
-	padding: 27px 22px;
+	/*padding: 27px 22px;*/
+	padding: 22px 25px;
 
 }
 
@@ -80,6 +80,30 @@ nav ul {
 	width: 24px;
 }
 
+/*.fa-bars {
+	margin-left: 10px;
+
+}*/
+
+.primary-nav {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #eb4243;
+	font-family: Teko, Helvetica, Arial, sans-serif;
+	color: #fff;
+	transform: translateY(100%);
+	transition-property: transform;
+	transition-duration: 0.3s;
+	overflow: hidden;
+}
+
+.primary-nav .is-visible {
+	transform: translateY(0);
+}
+
 main {
 	width: 80%;
 	margin-bottom: 60px;
@@ -89,9 +113,15 @@ main {
 	font-size: 26px;
 	font-weight: 300;
 	font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
-	color: d8d4d5;
+	color: #deddde;
 	line-height: 32px;
 	margin-bottom: 30px;
+	width: 73%;
+}
+
+main p {
+	width: 84%;
+	color: #a29fa1;
 }
 
 aside {
@@ -169,6 +199,14 @@ article a {
 	margin-bottom: 16px;
 
 
+}
+
+.fa-facebook {
+	margin-right: 5px;
+}
+
+.fa-linkedin {
+	margin-right: -1px;
 }
 
 time {
